@@ -1,0 +1,16 @@
+chmod 766 test1
+chmod u+x test2
+chmod u+x test3
+chmod u+x test4
+chmod u+x test5
+chmod u+x compa
+./au test6
+./au test7
+./au test8
+./au test9
+
+
+gcc -o sample sample.c
+./sample
+
+echo $?
